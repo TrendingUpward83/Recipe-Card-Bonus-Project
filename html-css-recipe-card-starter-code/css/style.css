@@ -1,11 +1,39 @@
 /** global styles **/
+body {
+    font-family: 'Open Sans' sans-serif;
 
-/** main header styles **/
+}
 
-/** main body styles **/
+/** body header styles **/
+header {
+    margin: auto;
+}
+
+header h1 {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 48px;
+    background: #FFFFFF;
+    color: #F16059;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 30px 200px 30px 10px;
+
+}
+
+header img {
+    padding-left: 350px;
+    margin-right: 21px;
+}
+
+/** body main styles **/
 
 main {
-    
+    font-size: 12px;
+    line-height: 16px;
+    width: 1000px;
+    margin: auto;
 }
 
 /** footer styles - currently design does not have a footer **/
