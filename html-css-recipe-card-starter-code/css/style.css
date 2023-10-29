@@ -91,7 +91,7 @@ main h3 {
   
 }
 
-.time {
+.recipe .time {
 margin-top: 10px;
   margin-left: auto;
   height: 50px;
@@ -103,7 +103,6 @@ margin-top: 10px;
 }
 
 .recipe .time div {
-  padding-top: inherit;
   border-top: 1px solid #3b3b3b;
   border-bottom: 1px solid #3b3b3b;
   border-right: 1px solid #3b3b3b;
@@ -118,21 +117,37 @@ margin-top: 10px;
   height: auto;
   float: left;
   display: inline;
-  padding-top: 15px;
+  padding-top: 18px;
   padding-bottom: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 5px;
   margin: 0;
 }
 
 .time-details {
-  padding-top: 15px;
+  padding-top: 18px;
   margin: 0px;
 }
 
-p .description {
+.time-details strong {
+  text-transform: uppercase;
+}
+
+/* Recipe Description*/
+.description {
   display: block;
   clear: both;
+  padding-left: 20px;
+  outline: 1px solid red;
+}
+
+/*Recipe columns */
+
+.card .recipe .columns section {
+  display: inline-block;
+  float: left;
+  width: 225px;
+  padding: 5px;
 }
 
 /* footer styles - currently design does not have a footer */
