@@ -7,7 +7,7 @@ body {
 header {
   margin: auto;
   background: #ffffff;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 header h1 {
@@ -38,7 +38,6 @@ main {
   margin: auto;
 }
 
-
 main h3 {
   font-size: 20px;
 }
@@ -48,7 +47,6 @@ main h3 {
   margin: 15px 0px 10px 0px;
   width: 1000px;
   height: 550px;
-  
 }
 /*Inside card */
 #cookies .image {
@@ -60,22 +58,21 @@ main h3 {
 }
 
 #pesto .image {
-    background-image: url("../img/nut-free-pesto.jpg");
-    background-size: cover;
-    float: left;
-    width: 500px;
-    height: 550px;
-  }
-  #salad .image {
-    background-image: url("../img/watermelon-salad.jpg");
-    background-size: cover;
-    float: left;
-    width: 500px;
-    height: 550px;
-  }
+  background-image: url("../img/nut-free-pesto.jpg");
+  background-size: cover;
+  float: left;
+  width: 500px;
+  height: 550px;
+}
+#salad .image {
+  background-image: url("../img/watermelon-salad.jpg");
+  background-size: cover;
+  float: left;
+  width: 500px;
+  height: 550px;
+}
 
 .card .recipe {
- 
   width: 500px;
   height: 550px;
   float: left;
@@ -84,15 +81,58 @@ main h3 {
 }
 
 .card .recipe h2 {
-  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   text-transform: uppercase;
-  color: #F16059 ;
+  color: #f16059;
   line-height: 29px;
   font-size: 24px;
+  
 }
 
-.prep .cook .total {
+.time {
+margin-top: 10px;
+  margin-left: auto;
+  height: 50px;
+  width: 480px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 1px solid #3b3b3b;
+}
+
+.recipe .time div {
+  padding-top: inherit;
+  border-top: 1px solid #3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
+  border-right: 1px solid #3b3b3b;
+  width: 159px;
+  height: 49px;
+  display: inline;
   float: left;
 }
+
+.time img {
+  width: 17px;
+  height: auto;
+  float: left;
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.time-details {
+  padding-top: 15px;
+  margin: 0px;
+}
+
+p .description {
+  display: block;
+  clear: both;
+}
+
 /* footer styles - currently design does not have a footer */
