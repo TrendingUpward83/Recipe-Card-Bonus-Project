@@ -1,39 +1,91 @@
-/** global styles **/
+/* global styles */
 body {
-    font-family: 'Open Sans' sans-serif;
-
+  background: #daf7f6;
 }
 
-/** body header styles **/
+/* body header styles */
 header {
-    margin: auto;
+  margin: auto;
+  background: #ffffff;
+  margin-bottom:5px;
 }
 
 header h1 {
-    font-family: 'Montserrat' sans-serif;
-    font-size: 48px;
-    background: #FFFFFF;
-    color: #F16059;
-    text-transform: uppercase;
-    text-align: center;
-    display: inline;
-    margin: 0;
-    padding: 30px 200px 30px 10px;
+  font-family: "Montserrat" sans-serif;
+  font-size: 48px;
 
+  color: #f16059;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline;
+  margin: auto;
+  padding: 30px 200px 30px 10px;
 }
 
 header img {
-    padding-left: 350px;
-    margin-right: 21px;
+  padding-left: 350px;
+  margin-right: 21px;
 }
 
-/** body main styles **/
+/* body main styles */
 
 main {
-    font-size: 12px;
-    line-height: 16px;
-    width: 1000px;
-    margin: auto;
+  color: #3b3b3b;
+  font-family: "Open Sans" sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  width: 1000px;
+  margin: auto;
 }
 
-/** footer styles - currently design does not have a footer **/
+main h2 {
+  font-size: 24px;
+}
+main h3 {
+  font-size: 20px;
+}
+/* card styling */
+
+.card {
+  margin: 15px 0px 10px 0px;
+  width: 1000px;
+  height: 550px;
+  
+}
+/*Inside card */
+#cookies .image {
+  background-image: url("../img/gluten-free-sugar-cookies.jpg");
+  background-size: cover;
+  float: left;
+  width: 500px;
+  height: 550px;
+}
+
+#pesto .image {
+    background-image: url("../img/nut-free-pesto.jpg");
+    background-size: cover;
+    float: left;
+    width: 500px;
+    height: 550px;
+  }
+  #salad .image {
+    background-image: url("../img/watermelon-salad.jpg");
+    background-size: cover;
+    float: left;
+    width: 500px;
+    height: 550px;
+  }
+
+.card .recipe {
+ 
+  width: 500px;
+  height: 550px;
+  float: left;
+  background: #ffffff;
+  overflow: auto; /*prevents parent container from collapse*/
+}
+
+.prep .cook .total {
+  float: left;
+}
+/* footer styles - currently design does not have a footer */
