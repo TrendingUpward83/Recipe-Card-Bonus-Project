@@ -1,6 +1,7 @@
 /* global styles */
 body {
   background: #daf7f6;
+  font-size: 12px;
 }
 
 /* body header styles */
@@ -138,16 +139,37 @@ margin-top: 10px;
   display: block;
   clear: both;
   padding-left: 20px;
-  outline: 1px solid red;
 }
 
 /*Recipe columns */
 
 .card .recipe .columns section {
-  display: inline-block;
+  display: inline;
   float: left;
   width: 225px;
-  padding: 5px;
+  padding-left: 5px;
 }
 
+
+.columns h3 {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color:  #F16059 ;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 0 5px 0;
+
+}
+
+.columns ul {
+  line-height: 22px;
+
+}
+
+.columns ol {
+  line-height: 24px;
+}
 /* footer styles - currently design does not have a footer */
